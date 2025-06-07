@@ -17,7 +17,7 @@ app.add_middleware(
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
-    allow_origins=["https://your-github-username.github.io", "https://your-custom-github-pages-domain.com"],
+    allow_origins=["https://pranav3782.github.io/SPA_front/"],
 )
 
 llm = ChatGroq(
