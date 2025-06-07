@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let uploadedImageFile = null;
 
     // Set your FastAPI backend URL. If running locally, it's likely this:
-    const API_BASE_URL = "http://127.0.0.1:8000"; // Or wherever your FastAPI is hosted
+    const API_BASE_URL = "https://spa-2-9sg0.onrender.com"; // Or wherever your FastAPI is hosted
 
     // Function to show/hide loading spinner and manage button state
     function toggleLoading(show) {
