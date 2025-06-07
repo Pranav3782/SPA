@@ -1,0 +1,9 @@
+streamlit
+pytesseract
+Pillow
+langchain
+langchain-groq
+fastapi
+uvicorn
+langchain_core
+
