@@ -17,7 +17,7 @@ app.add_middleware(
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
-    allow_origins=["https://pranav3782.github.io/SPA_front/"],
+    allow_origins=["*"],
 )
 
 llm = ChatGroq(
