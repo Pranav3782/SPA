@@ -8,7 +8,6 @@ import io
 from langchain_groq import ChatGroq
 from langchain.schema import HumanMessage
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe" # For Windows
 
 app = FastAPI()
 
